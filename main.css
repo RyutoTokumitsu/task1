@@ -1,0 +1,42 @@
+h3{
+ text-align:center;
+}
+
+#time{
+ margin:30px auto;
+ text-align:center;
+ font-size:50px;
+}
+
+
+#buttonContainer{
+ display:flex;
+ justify-content:space-between;
+ width:30%;
+ margin-left:auto;
+ margin-right:auto;
+ box-sizing:content-box;
+}
+
+#startButton{
+ padding:20px;
+ background-color:#C0C0C0;
+ font-weight:800;
+}
+#stopButton{
+ padding:20px;
+ background-color:#C0C0C0;
+ font-weight:800;
+}
+#resetButton{
+ padding:20px;
+ background-color:#C0C0C0;
+ font-weight:800;
+}
+
+button:hover{
+ opacity:0.5;
+}
+button{
+ cursor:default;
+}
